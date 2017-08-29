@@ -1,0 +1,94 @@
+body{ 
+    background-image: url('maison-contemporaine-rhone.jpg');
+        }
+
+
+#annonces{
+    margin-top: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#annonce {
+    
+    border: 1px solid black;
+      background-color: rgba(239, 239, 239, 0.61);
+    width:500px;
+  margin-bottom: 20px;
+}
+
+#mesannonces {
+    border: 1px solid black;
+  
+}
+
+#annoncebyid {
+    
+    border: 1px solid black;
+      background-color: rgba(239, 239, 239, 0.61);
+    width:1000px;
+  margin-bottom: 20px;
+}
+
+#annoncebyidparent{
+    margin-left:200px;;
+    
+}
+
+#menu{
+    display:flex;
+    background-color:rgba(239, 239, 239, 0.91);
+    justify-content: space-around;
+    
+}
+a { color:black;}
+
+#formuser{
+    display:flex;
+    justify-content: center;
+   
+    flex-direction: column;
+    
+    margin:auto;
+    margin-left:500px;
+      background-color: rgba(239, 239, 239, 0.61);
+    
+}
+
+.info{
+    width:50px;
+    margin-bottom: 5px;
+    color: black;
+    border:1px solid whitesmoke;
+    background-color: wheat;
+    border-radius: 10px;
+
+}
+
+#creer{
+    background-color: rgba(239, 239, 239, 0.61);
+}
+#mesannonces{
+    background-color: rgba(239, 239, 239, 0.61);
+     border: 1px solid black;
+   
+    width:300px;
+  margin-bottom: 20px;
+    
+    
+}
+
+/*#fondannonce{
+    background-color:rgba(239, 239, 239, 0.21);
+}*/
+
+.h2{ color:white;}
+
+#reservation{
+    background-color: rgba(239, 239, 239, 0.61);
+     border: 1px solid black;
+   
+    
+  margin-bottom: 20px;
+}
